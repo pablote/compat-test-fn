@@ -1,0 +1,11 @@
+{
+  "name": "compat-test-fn",
+  "version": "1.0.0",
+  "description": "Provide a function that is incompatible between mayor versions of the library. Useful to test consumer compatibility scenarios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pablo Compagni <pablocompagni@gmail.com>",
+  "license": "ISC"
+}
