@@ -1,9 +1,9 @@
-function sayHi(name) {
-  if (typeof name !== "string") {
-    throw new Error("'name' expected to be a string");
+function sayHi(args) {
+  if (typeof args !== "object") {
+    throw new Error("'args' expected to be an object");
   }
 
-  return "Hi " + name + "!";
+  return "Hi " + args.name + "!";
 }
 
 module.exports = {
